@@ -21,48 +21,349 @@
 </head>
 
 <header>
-    <div class="container-fluid">
-        
-            <div class="col-2">
-                <div class="card bg-dark" >
-                    <a class="navbar-brand " href="#">
-                        <img src="./img/duck.png" alt="duck" width="50" height="50">
-                    </a>
-                    <div class="col-6 text-center" id="ul-1"></div>
+
+<nav class="navbar navbar-expand-lg bg-dark">
+  <div class="container-fluid">
+      <img class="w" src="./img/duck.png" alt="Logo" width="50" height="50">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="#">Catalogo libri</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link text-light" href="#">Anagrafica Utenti</a>
+              </li>
+
+              <li class="nav-item">
+                  <a class="nav-link text-light" href="#">Storico Prestiti</a>
+              </li>
+
+              <li class="nav-item">
+                  <a class="nav-link text-light" href="#">Help</a>
+              </li>
+
+            </header>
+
+            <main>
+              <div class="container py-5 h-100">
+                <div class="row d-flex justify-content-center align-items-center h-100">
+                  <div class="col-md-12 col-xl-10">
+            
+                    <div class="card">
+                      <div class="card-header p-3">
+                        <h5 class="mb-0"><i class="fas fa-tasks me-2"></i>Catalogo Libri </h5>
+                      </div>
+                      <div class="card-body" data-mdb-perfect-scrollbar="true" style="position: relative; height: 400px">
+            
+                        <table class="table mb-0">
+                          <thead>
+                            <tr>
+                              <th scope="col">Titolo</th>
+                              <th scope="col">Data Prestito</th>
+                              <th scope="col">Stato</th>
+                              <th scope="col">Azioni</th>
+                            </tr>
+                          </thead>
+
+                          <tbody>
+                            <tr class="fw-normal">
+                              <th>
+                                <p>I pilastri della terra</p>
+                              </th>
+                              <td class="align-middle">
+                                <span>-</span>
+                              </td>
+                              <td class="align-middle">
+                                <span class="badge bg-success">Disponibile</span>
+                              </td>
+                              <td class="align-middle">
+                                <a href="#!" data-mdb-toggle="tooltip" title="Done"><i
+                                    class="fas fa-check text-success me-3"></i></a>
+                                <a href="#!" data-mdb-toggle="tooltip" title="Remove"><i
+                                    class="fas fa-trash-alt text-danger"></i></a>
+                              </td>
+                            </tr>
+                            <tr class="fw-normal">
+                              <th>
+                                <tr class="fw-normal">
+                                  <th>
+                                    <p>I promessi sposi </p>
+                                  </th>
+                                  <td class="align-middle">
+                                    <span>-</span>
+                                  </td>
+                                  <td class="align-middle">
+                                    <span class="badge bg-success">Disponibile</span>
+                                  </td>
+                                  <td class="align-middle">
+                                    <a href="#!" data-mdb-toggle="tooltip" title="Done"><i
+                                        class="fas fa-check text-success me-3"></i></a>
+                                    <a href="#!" data-mdb-toggle="tooltip" title="Remove"><i
+                                        class="fas fa-trash-alt text-danger"></i></a>
+                                  </td>
+                                </tr>
+                            <tr class="fw-normal">
+                              <th>
+                                <tr class="fw-normal">
+                                  <th>
+                                    <p>I pilastri della terra</p>
+                                  </th>
+                                  <td class="align-middle">
+                                    <span>-</span>
+                                  </td>
+                                  <td class="align-middle">
+                                    <span class="badge bg-success">Disponibile</span>
+                                  </td>
+                                  <td class="align-middle">
+                                    <a href="#!" data-mdb-toggle="tooltip" title="Done"><i
+                                        class="fas fa-check text-success me-3"></i></a>
+                                    <a href="#!" data-mdb-toggle="tooltip" title="Remove"><i
+                                        class="fas fa-trash-alt text-danger"></i></a>
+                                  </td>
+                                </tr>
+                            </tr>
+                            <tr class="fw-normal">
+                              <th>
+                                <tr class="fw-normal">
+                                  <th>
+                                    <p>Il signore degli anelli</p>
+                                  </th>
+                                  <td class="align-middle">
+                                    <span>18/10/2023</span>
+                                  </td>
+                                  <td class="align-middle">
+                                    <span class="badge bg-warning text-withe">In prestito</span>
+                                  </td>
+                                  <td class="align-middle">
+                                    <a href="#!" data-mdb-toggle="tooltip" title="Done"><i
+                                        class="fas fa-check text-success me-3"></i></a>
+                                    <a href="#!" data-mdb-toggle="tooltip" title="Remove"><i
+                                        class="fas fa-trash-alt text-danger"></i></a>
+                                  </td>
+                                </tr>
+                            </tr>                   <tr class="fw-normal">
+                              <th class="">
+                                <tr class="fw-normal">
+                                  <th>
+                                    <p>Harry Potter e la pietra filosofale</p>
+                                  </th>
+                                  <td class="align-middle">
+                                    <span>-</span>
+                                  </td>
+                                  <td class="align-middle">
+                                    <span class="badge bg-success">Disponibile</span>
+                                  </td>
+                                  <td class="align-middle">
+                                    <a href="#!" data-mdb-toggle="tooltip" title="Done"><i
+                                        class="fas fa-check text-success me-3"></i></a>
+                                    <a href="#!" data-mdb-toggle="tooltip" title="Remove"><i
+                                        class="fas fa-trash-alt text-danger"></i></a>
+                                  </td>
+                                </tr>
+                            </tr>
+                            <tr class="fw-normal">
+                              <tr class="fw-normal">
+                                <th>
+                                  <p>Il codice Da Vinci</p>
+                                </th>
+                                <td class="align-middle">
+                                  <span>-</span>
+                                </td>
+                                <td class="align-middle">
+                                  <span class="badge bg-danger">Non Disponibile</span>
+                                </td>
+                                <td class="align-middle">
+                                  <a href="#!" data-mdb-toggle="tooltip" title="Done"><i
+                                      class="fas fa-check text-success me-3"></i></a>
+                                  <a href="#!" data-mdb-toggle="tooltip" title="Remove"><i
+                                      class="fas fa-trash-alt text-danger"></i></a>
+                                      <tr class="fw-normal">
+                                        <th>
+                                          <p>Shining</p>
+                                        </th>
+                                        <td class="align-middle">
+                                          <span>-</span>
+                                        </td>
+                                        <td class="align-middle">
+                                          <span class="badge bg-success">Disponibile</span>
+                                        </td>
+                                        <td class="align-middle">
+                                          <a href="#!" data-mdb-toggle="tooltip" title="Done"><i
+                                              class="fas fa-check text-success me-3"></i></a>
+                                          <a href="#!" data-mdb-toggle="tooltip" title="Remove"><i
+                                              class="fas fa-trash-alt text-danger"></i></a>
+                                        </td>
+                                      </tr>
+                                      <tr class="fw-normal">
+                                        <th>
+                                          <p>La divina commedia</p>
+                                        </th>
+                                        <td class="align-middle">
+                                          <span>21/09/2023</span>
+                                        </td>
+                                        <td class="align-middle">
+                                          <span class="badge bg-warning text-withe">In prestito</span>
+                                        </td>
+                                        <td class="align-middle">
+                                          <a href="#!" data-mdb-toggle="tooltip" title="Done"><i
+                                              class="fas fa-check text-success me-3"></i></a>
+                                          <a href="#!" data-mdb-toggle="tooltip" title="Remove"><i
+                                              class="fas fa-trash-alt text-danger"></i></a>
+                                        </td>
+                                      </tr>
+                                      <tr class="fw-normal">
+                                        <th>
+                                          <p>Il trono di spade</p>
+                                        </th>
+                                        <td class="align-middle">
+                                          <span>-</span>
+                                        </td>
+                                        <td class="align-middle">
+                                          <span class="badge bg-success">Disponibile</span>
+                                        </td>
+                                        <td class="align-middle">
+                                          <a href="#!" data-mdb-toggle="tooltip" title="Done"><i
+                                              class="fas fa-check text-success me-3"></i></a>
+                                          <a href="#!" data-mdb-toggle="tooltip" title="Remove"><i
+                                              class="fas fa-trash-alt text-danger"></i></a>
+                                        </td>
+                                      </tr>
+                                      <tr class="fw-normal">
+                                        <th>
+                                          <p>Il mondo di sofia</p>
+                                        </th>
+                                        <td class="align-middle">
+                                          <span>-</span>
+                                        </td>
+                                        <td class="align-middle">
+                                          <span class="badge bg-danger">Non disponibile</span>
+                                        </td>
+                                        <td class="align-middle">
+                                          <a href="#!" data-mdb-toggle="tooltip" title="Done"><i
+                                              class="fas fa-check text-success me-3"></i></a>
+                                          <a href="#!" data-mdb-toggle="tooltip" title="Remove"><i
+                                              class="fas fa-trash-alt text-danger"></i></a>
+                                        </td>
+                                      </tr>
+
+                                      <tr class="fw-normal">
+                              <th>
+                                <p>Le cronache di Narnia;il leone,la strega e l'armadio</p>
+                              </th>
+                              <td class="align-middle">
+                                <span>25/07/2023</span>
+                              </td>
+                              <td class="align-middle">
+                                <span class="badge bg-warning text-withe">In prestito</span>
+                              </td>
+                              <td class="align-middle">
+                                <a href="#!" data-mdb-toggle="tooltip" title="Done"><i
+                                    class="fas fa-check text-success me-3"></i></a>
+                                <a href="#!" data-mdb-toggle="tooltip" title="Remove"><i
+                                    class="fas fa-trash-alt text-danger"></i></a>
+                              </td>
+                            </tr>
+                            <tr class="fw-normal">
+                              <th>
+                                <p>Il piccolo principe</p>
+                              </th>
+                              <td class="align-middle">
+                                <span>-</span>
+                              </td>
+                              <td class="align-middle">
+                                <span class="badge bg-success">Disponibile</span>
+                              </td>
+                              <td class="align-middle">
+                                <a href="#!" data-mdb-toggle="tooltip" title="Done"><i
+                                    class="fas fa-check text-success me-3"></i></a>
+                                <a href="#!" data-mdb-toggle="tooltip" title="Remove"><i
+                                    class="fas fa-trash-alt text-danger"></i></a>
+                              </td>
+                            </tr>
+
+                            <tr class="fw-normal">
+                              <th>
+                                <p>La storia infinita</p>
+                              </th>
+                              <td class="align-middle">
+                                <span>-</span>
+                                        </td>
+                                        <td class="align-middle">
+                                          <span class="badge bg-success">Disponibile</span>
+                                        </td>
+                              <td class="align-middle">
+                                <a href="#!" data-mdb-toggle="tooltip" title="Done"><i
+                                    class="fas fa-check text-success me-3"></i></a>
+                                <a href="#!" data-mdb-toggle="tooltip" title="Remove"><i
+                                    class="fas fa-trash-alt text-danger"></i></a>
+                              </td>
+                            </tr>
+                            
+                              
+                          </tbody>
+                        </table>
+            
+                      
+            
                   </div>
-                  <li class="horizontal-li1">
-                    Catalogo Libri
-                  </li>
-                  <li class="horizontal-li">
-                    Anagrafia Utenti
-                  </li>
-                  <li class="horizontal-li">
-                    Storico Prestiti
-                  </li>
-                  <li class="horizontal-li">
-                    Help
-                  </li>
-                </ul>
+                </div>
               </div>
-              <div class="col-2">
-                <button type="button" class="btn btn-light rounded-pill" style="padding: 7px 16px;" > Cerca </button>
-              </div>
-            </div>
-    </div>
-</header>
 
 
-
-<main>
-    <div class="col-6 text-center" id="ul-1"></div>
-    <h4 class="text-start">Catalogo Libri </h4>
         
+            </main>
+
+    
+                               
+                                    
 
 
 
 
 
-</main>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- lasciarlo in fondo e non toglierlo -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+crossorigin="anonymous"></script>
