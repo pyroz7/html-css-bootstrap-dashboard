@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+.horizontal-li {  
+    
+     color:grey;
+     
+}
+
+
+.container-fluid{
+    background-color: #212529;
+    
+}
+
+
+.logo{
+    height: auto;
+}
+
+.horizontal-li1{
+    color: aliceblue;
+}
